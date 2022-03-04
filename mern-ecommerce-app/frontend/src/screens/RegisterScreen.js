@@ -64,7 +64,7 @@ const RegisterScreen = ({location, history}) => {
                 </Form.Group>
 
                 <Button type='submit' variant='primary' className='mt-4'>
-                    Log In
+                    Register
                 </Button>
             </Form>
 

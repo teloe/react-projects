@@ -10,6 +10,6 @@ import {protect} from '../middleware/authMiddleware.js';
 
 router.route('/').post(registerUser);
 router.post('/login', authUser);
-router.route('/profile').get(protect, getUserProfile).get(protect, updateUserProfile);
+router.route('/profile').get(protect, getUserProfile).get(protect, updateUserProfile).put(protect, updateUserProfile);
 
 export default router 
