@@ -32,7 +32,7 @@ const ProductListScreen = ({ history, match }) => {
 
   const deleteHandler = (id) => {
     if (window.confirm('Are you sure')) {
-        dispatchEvent(deleteProduct(id))
+        dispatch(deleteProduct(id))
     }
   }
 
