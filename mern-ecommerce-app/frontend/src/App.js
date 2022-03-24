@@ -17,7 +17,7 @@ import UserListScreen from './screens/UserListScreen'
 import UserEditScreen from './screens/UserEditScreen'
 import ProductListScreen from './screens/ProductListScreen'
 
-const App = ()  => {
+const App = () => {
     return (
         <Router>
             <Header />
