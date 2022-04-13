@@ -5,8 +5,7 @@ import ButtonPanel from './ButtonPanel';
 const App = () => {
     return (
         <div>
-            Welcome to App
-            <Display />
+            <Display value="17" />
             <ButtonPanel />
         </div>
     );
