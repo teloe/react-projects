@@ -2,8 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 class Button extends React.Component {
+    handleClick = () => {
+        console.log('click');
+    };
+
     render() {
-        return <button>{this.props.name}</button>;
+        return <button onClick={this.handleClick}>{this.props.name}</button>;
     }
 }
 
